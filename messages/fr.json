@@ -1,0 +1,122 @@
+{
+  "app": {
+    "title": "Gestion de Comptes Bancaires",
+    "description": "Gérez facilement vos comptes bancaires"
+  },
+  "common": {
+    "appName": "Système de Gestion Bancaire",
+    "success": "Succès",
+    "error": "Erreur",
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "confirm": "Confirmer",
+    "back": "Retour"
+  },
+  "nav": {
+    "dashboard": "Tableau de Bord",
+    "accounts": "Comptes",
+    "transfers": "Transferts",
+    "transferHistory": "Historique des Transferts",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "header": {
+    "home": "Accueil",
+    "accounts": "Comptes",
+    "transfer": "Transfert de Fonds"
+  },
+  "accounts": {
+    "title": "Vos Comptes",
+    "create": "Créer un Compte",
+    "edit": "Modifier le Compte",
+    "delete": "Supprimer le Compte",
+    "search": "Rechercher des comptes...",
+    "searchBy": "Rechercher par",
+    "clearSearch": "Effacer la recherche",
+    "searchFields": {
+      "all": "Tous les champs",
+      "ownerId": "ID du Propriétaire",
+      "currency": "Devise"
+    },
+    "noAccounts": "Vous n'avez pas encore de comptes. Créez-en un pour commencer.",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer ce compte ?",
+    "listTitle": "Liste des Comptes",
+    "ownerId": "ID du Propriétaire",
+    "currency": "Devise",
+    "balance": "Solde",
+    "deleteConfirmation": "Êtes-vous sûr de vouloir supprimer ce compte ?",
+    "noSearchResults": "Aucun compte ne correspond à vos critères de recherche.",
+    "deleteSuccess": "Compte supprimé avec succès",
+    "deleteError": "Échec de la suppression du compte",
+    "createSuccess": "Compte créé avec succès",
+    "createError": "Échec de la création du compte",
+    "updateSuccess": "Compte mis à jour avec succès",
+    "updateError": "Échec de la mise à jour du compte",
+    "table": {
+      "ownerId": "ID du Propriétaire",
+      "currency": "Devise",
+      "balance": "Solde",
+      "actions": "Actions"
+    },
+    "form": {
+      "ownerId": "ID du Propriétaire",
+      "ownerIdPlaceholder": "Entrez l'ID du propriétaire",
+      "currency": "Devise",
+      "balance": "Solde",
+      "balancePlaceholder": "Entrez le solde",
+      "submit": "Soumettre",
+      "cancel": "Annuler",
+      "success": "Compte créé avec succès",
+      "error": "Échec de la création du compte"
+    },
+    "validation": {
+      "ownerIdRequired": "L'ID du propriétaire est requis",
+      "ownerIdFormat": "L'ID du propriétaire doit être un nombre",
+      "ownerIdDuplicate": "Un compte avec cet ID de propriétaire existe déjà",
+      "currencyRequired": "La devise est requise",
+      "balanceRequired": "Le solde est requis",
+      "balanceFormat": "Le solde doit être un nombre",
+      "balancePositive": "Le solde doit être supérieur ou égal à 0"
+    }
+  },
+  "transfer": {
+    "title": "Transfert de Fonds",
+    "success": "Transfert effectué avec succès",
+    "successConversion": "Transféré {amount} {fromCurrency} ({convertedAmount} {toCurrency})",
+    "conversionPreview": "{amount} {fromCurrency} = {convertedAmount} {toCurrency}",
+    "error": "Échec du transfert",
+    "needTwoAccounts": "Vous avez besoin d'au moins deux comptes pour effectuer un transfert",
+    "form": {
+      "fromAccount": "Compte Source",
+      "toAccount": "Compte Destinataire",
+      "amount": "Montant",
+      "amountPlaceholder": "Saisir le montant à transférer",
+      "submit": "Transférer",
+      "cancel": "Annuler"
+    },
+    "validation": {
+      "fromAccountRequired": "Le compte source est requis",
+      "toAccountRequired": "Le compte destinataire est requis",
+      "sameAccount": "Les comptes source et destinataire doivent être différents",
+      "amountRequired": "Le montant est requis",
+      "amountFormat": "Le montant doit être un nombre",
+      "amountPositive": "Le montant doit être supérieur à 0",
+      "insufficientFunds": "Solde insuffisant dans le compte source",
+      "accountNotFound": "Un ou les deux comptes n'ont pas été trouvés"
+    },
+    "history": {
+      "title": "Historique des Transferts",
+      "description": "Transferts de fonds récents",
+      "noTransfers": "Aucun historique de transfert à afficher",
+      "from": "De",
+      "to": "Vers",
+      "amount": "Montant",
+      "converted": "Montant Converti",
+      "date": "Date",
+      "unknownAccount": "Compte Inconnu"
+    }
+  }
+} 
