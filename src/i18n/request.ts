@@ -1,4 +1,5 @@
 import { getRequestConfig } from 'next-intl/server';
+import '../lib/localStorage-polyfill';
 
 export default getRequestConfig(async ({ locale }) => {
   const resolvedLocale = locale || 'en';
